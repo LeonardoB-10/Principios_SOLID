@@ -128,15 +128,15 @@ parcelRequire = (function (modules, cache, entry, globalName) {
     });
   }
   // función para obtener información de los actores de una película - Actors o Cast // id = movieId getMovieCast
-  function getActorsByMovieId(movieId) {
+  function getActorsByMovieId(id) {
     console.log({
-      movieId: movieId
+      id: id
     });
   }
   // funcion para obtener el bio del actor por el id
-  function getBioUser(actorId) {
+  function getActorById(id) {
     console.log({
-      actorId: actorId
+      id: id
     });
   }
   // Crear una película
@@ -189,7 +189,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "44077" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "39703" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
