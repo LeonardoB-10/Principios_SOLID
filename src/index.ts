@@ -5,11 +5,11 @@
   // Dirección ip del servidor
   const serverIp = "123.123.123.123";
 
-  // Listado de usuarios
+  // Listado de usuarios -1
   const users = [
     { id: 1, email: "fernando@google.com" },
     { id: 2, email: "juan@google.com" },
-    { id: 3, email: "melissa@google.com" }
+    { id: 3, email: "melissa@google.com" },
   ];
 
   // Listado de emails de los usuarios
